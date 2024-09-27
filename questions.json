@@ -128,19 +128,19 @@
     {
       "question": "Which of the following is a member function of the string class in C++?",
       "answers": [
-        { "text": "size()", "correct": true },
-        { "text": "length()", "correct": true },
-        { "text": "append()", "correct": true },
+        { "text": "size()", "correct": false },
+        { "text": "length()", "correct":false },
+        { "text": "append()", "correct": false },
         { "text": "All of the above", "correct": true }
       ]
     },
     {
       "question": "Which C++ standard library provides algorithms for operations on containers?",
       "answers": [
-        { "text": "<vector>", "correct": false },
-        { "text": "<algorithm>", "correct": true },
-        { "text": "<iostream>", "correct": false },
-        { "text": "<string>", "correct": false }
+        { "text": "vector", "correct": false },
+        { "text": "algorithm", "correct": true },
+        { "text": "iostream", "correct": false },
+        { "text": "string", "correct": false }
       ]
     },
     {
