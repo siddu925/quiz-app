@@ -1,0 +1,210 @@
+[
+    {
+      "question": "Which of the following is a valid declaration of a pointer in C++?",
+      "answers": [
+        { "text": "int ptr;", "correct": false },
+        { "text": "int *ptr;", "correct": true },
+        { "text": "ptr int;", "correct": false },
+        { "text": "int& ptr;", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the default access specifier for members of a class in C++?",
+      "answers": [
+        { "text": "public", "correct": false },
+        { "text": "protected", "correct": false },
+        { "text": "private", "correct": true },
+        { "text": "friend", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is not a type of constructor in C++?",
+      "answers": [
+        { "text": "Default constructor", "correct": false },
+        { "text": "Parameterized constructor", "correct": false },
+        { "text": "Copy constructor", "correct": false },
+        { "text": "Static constructor", "correct": true }
+      ]
+    },
+    {
+      "question": "Which operator is used to allocate memory dynamically in C++?",
+      "answers": [
+        { "text": "malloc()", "correct": false },
+        { "text": "new", "correct": true },
+        { "text": "alloc()", "correct": false },
+        { "text": "create()", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'virtual' keyword in C++?",
+      "answers": [
+        { "text": "To create a static member", "correct": false },
+        { "text": "To achieve polymorphism", "correct": true },
+        { "text": "To declare a global variable", "correct": false },
+        { "text": "To define a function template", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following can be used to handle exceptions in C++?",
+      "answers": [
+        { "text": "try-catch", "correct": true },
+        { "text": "throw-catch", "correct": false },
+        { "text": "exception-try", "correct": false },
+        { "text": "handle-exception", "correct": false }
+      ]
+    },
+    {
+      "question": "What will happen if you try to access a member of a deleted object in C++?",
+      "answers": [
+        { "text": "It will return null", "correct": false },
+        { "text": "It will cause a compile-time error", "correct": false },
+        { "text": "It will cause undefined behavior", "correct": true },
+        { "text": "It will display an error message", "correct": false }
+      ]
+    },
+    {
+      "question": "Which STL container maintains the order of elements?",
+      "answers": [
+        { "text": "set", "correct": false },
+        { "text": "unordered_map", "correct": false },
+        { "text": "vector", "correct": true },
+        { "text": "map", "correct": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to inherit a class in C++?",
+      "answers": [
+        { "text": "extends", "correct": false },
+        { "text": "inherits", "correct": false },
+        { "text": "base", "correct": false },
+        { "text": "public", "correct": true }
+      ]
+    },
+    {
+      "question": "What is the output of the following code snippet: 'int a = 5; cout << ++a;`?",
+      "answers": [
+        { "text": "5", "correct": false },
+        { "text": "6", "correct": true },
+        { "text": "7", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a feature of Object-Oriented Programming?",
+      "answers": [
+        { "text": "Encapsulation", "correct": true },
+        { "text": "Structured programming", "correct": false },
+        { "text": "Procedural programming", "correct": false },
+        { "text": "Functional programming", "correct": false }
+      ]
+    },
+    {
+      "question": "What does the 'delete' operator do in C++?",
+      "answers": [
+        { "text": "Removes an element from a vector", "correct": false },
+        { "text": "Deallocates memory allocated with 'new'", "correct": true },
+        { "text": "Deletes a file", "correct": false },
+        { "text": "Terminates the program", "correct": false }
+      ]
+    },
+    {
+      "question": "Which function is called when an object goes out of scope in C++?",
+      "answers": [
+        { "text": "Destructor", "correct": true },
+        { "text": "Constructor", "correct": false },
+        { "text": "Finalizer", "correct": false },
+        { "text": "Garbage collector", "correct": false }
+      ]
+    },
+    {
+      "question": "What will be the output of this code: 'cout << (5 == 5);'?",
+      "answers": [
+        { "text": "true", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "0", "correct": false },
+        { "text": "false", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a member function of the string class in C++?",
+      "answers": [
+        { "text": "size()", "correct": true },
+        { "text": "length()", "correct": true },
+        { "text": "append()", "correct": true },
+        { "text": "All of the above", "correct": true }
+      ]
+    },
+    {
+      "question": "Which C++ standard library provides algorithms for operations on containers?",
+      "answers": [
+        { "text": "<vector>", "correct": false },
+        { "text": "<algorithm>", "correct": true },
+        { "text": "<iostream>", "correct": false },
+        { "text": "<string>", "correct": false }
+      ]
+    },
+    {
+      "question": "What does 'using namespace std;' do?",
+      "answers": [
+        { "text": "Makes the standard library available", "correct": true },
+        { "text": "Declares a namespace", "correct": false },
+        { "text": "Creates a new namespace", "correct": false },
+        { "text": "Ends the program", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a correct way to define a function in C++?",
+      "answers": [
+        { "text": "void functionName() {}", "correct": true },
+        { "text": "function functionName() {}", "correct": false },
+        { "text": "void functionName[] {}", "correct": false },
+        { "text": "functionName() void {}", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of a destructor in C++?",
+      "answers": [
+        { "text": "To initialize objects", "correct": false },
+        { "text": "To release resources", "correct": true },
+        { "text": "To copy objects", "correct": false },
+        { "text": "To overload operators", "correct": false }
+      ]
+    },
+    {
+      "question": "What does the 'friend' keyword do in C++?",
+      "answers": [
+        { "text": "Allows access to private members", "correct": true },
+        { "text": "Declares a base class", "correct": false },
+        { "text": "Defines a global variable", "correct": false },
+        { "text": "Creates a new class", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following cannot be overloaded in C++?",
+      "answers": [
+        { "text": "Operators", "correct": false },
+        { "text": "Functions", "correct": false },
+        { "text": "New", "correct": false },
+        { "text": "Scope resolution operator (::)", "correct": true }
+      ]
+    },
+    {
+      "question": "What is the output of this expression: '5 / 2' in C++?",
+      "answers": [
+        { "text": "2", "correct": true },
+        { "text": "2.5", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+        "question": "What will the following code print: 'cout << \"Hello World\";'?",
+        "answers": [
+          { "text": "Hello", "correct": false },
+          { "text": "World", "correct": false },
+          { "text": "Hello World", "correct": true },
+          { "text": "Error", "correct": false }
+        ]
+      }
+  ]
+  
